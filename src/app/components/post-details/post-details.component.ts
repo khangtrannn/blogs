@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit, computed, input } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
@@ -9,5 +9,6 @@ import { MarkdownModule } from 'ngx-markdown';
   styleUrl: './post-details.component.scss'
 })
 export class PostDetailsComponent {
-
+  private postSlug = input.required();
+  markdownUrl = computed(() => `/assets/posts/${this.postSlug()}.md`);
 }

@@ -1,7 +1,7 @@
 <article class="post-entry">
-  <header class="entry-header"><h2>Video: My Entire Neovim + Tmux Workflow As A DevOps Engineer On MacOS</h2></header>
-  <section class="entry-content"><p>I’ve just released a comprehensive video delving deep into my Neovim setup and command-line centric workflow. This video is a response to the curiosity of my YouTube subscribers. It’s an all-inclusive guide from A to Z, detailing the rationale behind my configuration choices. I’ve spent years perfecting my workflow and this video has been several months in the making, so I’m excited that I can finally share it with you....</p></section>
-  <a class="entry-link" aria-label="post link to Video: My Entire Neovim + Tmux Workflow As A DevOps Engineer On MacOS" href="https://mischavandenburg.com/zet/video-tmux-neovim-macos-workflow/"></a>
+  <header class="entry-header"><h2>{{post().title}}</h2></header>
+  <section class="entry-content"><p>{{post().preview}}</p></section>
+  <a class="entry-link" [routerLink]="'/posts/' + post().slug"></a>
 
   <footer class="entry-footer">
     <span class="meta-item">
