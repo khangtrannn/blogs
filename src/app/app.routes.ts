@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 
 export const routes: Routes = [
-  { path: "posts", loadChildren: () => import("./posts/post.routes") },
+  { path: "posts", loadChildren: () => import("./features/post/post.routes") },
   {
     path: "",
     pathMatch: "full",

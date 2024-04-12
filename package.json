@@ -19,7 +19,9 @@
     "@angular/router": "^17.3.4",
     "markdown-it": "^14.1.0",
     "ngx-markdown": "^17.1.1",
+    "ngx-quill": "^25.1.3",
     "prismjs": "^1.29.0",
+    "quill": "^2.0.0-rc.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
