@@ -54,14 +54,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "src/assets/themes/gruvbox.css",
-              "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css"
+              "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/prismjs/prism.js",
-              "node_modules/prismjs/components/prism-javascript.min.js",
-              "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js"
+
             ]
           },
           "configurations": {

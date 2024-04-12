@@ -1,10 +1,10 @@
-import { ApplicationRef, Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { ApplicationRef, Component } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
+import { HeaderComponent } from "./components/header/header.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   template: `
@@ -25,12 +25,4 @@ import { FooterComponent } from './components/footer/footer.component';
     }
   `,
 })
-export class AppComponent {
-  title = 'khangtrann-blogs';
-
-  constructor(private applicationRef: ApplicationRef) {
-    setTimeout(() => {
-      console.log(this.applicationRef);
-    });
-  }
-}
+export class AppComponent {}
