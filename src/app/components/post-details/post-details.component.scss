@@ -1,0 +1,39 @@
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-title {
+  font-size: 40px;
+  margin-bottom: var(--content-gap);
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.post-meta {
+  font-size: 15px;
+}
+
+.meta-item {
+  display: inline-block;
+}
+
+.meta-item svg {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -.15em;
+}
+
+.meta-item:not(:last-of-type)::after {
+  content: "·";
+  margin-inline-start: 0.5em;
+  margin-inline-end: 0.5em;
+}
+
+.meta-item .post-tags a:before {
+  content: "#";
+}
+
+.meta-item .post-tags a:not(:last-of-type):after {
+  content: ", ";
+}

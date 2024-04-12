@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ApplicationRef, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -27,4 +27,10 @@ import { FooterComponent } from './components/footer/footer.component';
 })
 export class AppComponent {
   title = 'khangtrann-blogs';
+
+  constructor(private applicationRef: ApplicationRef) {
+    setTimeout(() => {
+      console.log(this.applicationRef);
+    });
+  }
 }
