@@ -18,7 +18,6 @@ import { FooterComponent } from "./components/footer/footer.component";
     .container {
       position: relative;
       min-height: calc(100vh - var(--header-height) - var(--footer-height));
-      max-width: calc(var(--main-width) + var(--gap) * 2);
       margin: auto;
       padding: var(--content-gap)var(--gap)0;
       line-height: 29px;

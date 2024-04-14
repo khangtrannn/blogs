@@ -1,8 +1,10 @@
-  .introduction {
-    font-size: 17px;
-    color: var(--content);
+.introduction {
+  font-size: 17px;
+  color: var(--content);
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  margin: 0 auto;
 
-    p {
-      margin-bottom: var(--content-gap);
-    }
+  p {
+    margin-bottom: var(--content-gap);
   }
+}
